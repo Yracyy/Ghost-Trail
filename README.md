@@ -57,7 +57,7 @@ The startup safety net should have caught it. If it didn't, check that the exten
 
 This shouldn't happen — settings are stored in `chrome.storage.local` which persists across sessions. If it does, the storage may be corrupted. Try removing and re-loading the extension.
 
-## "Why not publish in Chrome Web Store?"
+## Why not publish in Chrome Web Store?
 
 To publish an extension you need to pay 5$ USD to register CWS Dev and i dont to do that (im broke :P)
 
