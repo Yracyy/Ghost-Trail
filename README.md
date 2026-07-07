@@ -17,7 +17,7 @@ Both features are independent and can be used together or separately.
 
 **Manual install:**
 
-1. Download the latest release ZIP from the releases page
+1. Clone repo or download as ZIP file
 2. Extract it to a permanent location (don't delete the folder after installing)
 3. Go to `chrome://extensions` (or `edge://extensions`, `brave://extensions`, etc.)
 4. Enable **Developer mode** (toggle in the top-right corner)
