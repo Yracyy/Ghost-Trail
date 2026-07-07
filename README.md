@@ -15,10 +15,6 @@ Both features are independent and can be used together or separately.
 - Any Chromium-based browser (Chrome, Edge, Brave, Helium, etc.)
 - Manifest V3 support
 
-## Install
-
-**Chrome Web Store** — link will be added after publishing
-
 **Manual install:**
 
 1. Download the latest release ZIP from the releases page
@@ -46,10 +42,6 @@ Changes take effect immediately — no restart needed.
 | `storage` | Remember your toggle settings between sessions |
 
 That's it. No `tabs`, no `webRequest`, no `<all_urls>`. Ghost Trail never sees your page content and nothing leaves your browser.
-
-## Developing
-
-Load the folder as an unpacked extension. Changes to `popup.html`, `popup.js`, and `style.css` take effect the next time you open the popup. Changes to `background.js` require clicking the refresh icon on the extension card in `chrome://extensions`.
 
 ## Troubleshooting
 
