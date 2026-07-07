@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Ghost Trail",
+  "version": "1.0.0",
+  "description": "Minimal history control — disable tracking or auto-clear on exit.",
+  "permissions": [
+    "history",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

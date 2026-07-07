@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ghost Trail</h1>
+      <p class="subtitle">by Yracy</p>
+    </header>
+
+    <div class="divider"></div>
+
+    <div class="option" role="group" aria-labelledby="label-disable">
+      <div class="option-text">
+        <span class="option-title" id="label-disable">Disable History</span>
+        <span class="option-desc">Pages won't be recorded</span>
+      </div>
+      <label class="toggle" aria-label="Toggle disable history">
+        <input type="checkbox" id="disableHistory">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+
+    <div class="option" role="group" aria-labelledby="label-clear">
+      <div class="option-text">
+        <span class="option-title" id="label-clear">Clear on Exit</span>
+        <span class="option-desc">Wipe history when browser closes</span>
+      </div>
+      <label class="toggle" aria-label="Toggle clear on exit">
+        <input type="checkbox" id="clearOnExit">
+        <span class="toggle-track"></span>
+      </label>
+    </div>
+
+    <div class="divider"></div>
+
+    <footer>
+      <span>v1.0.0</span>
+      <span class="sep">&middot;</span>
+      <a href="https://github.com/Yracyy" target="_blank" rel="noopener">Github</a>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
