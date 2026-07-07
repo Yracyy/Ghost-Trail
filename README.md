@@ -1,5 +1,7 @@
 # Ghost Trail
 
+![Alt text]([image-url](https://github.com/Yracyy/NO-PEEKING/blob/main/ghost%20trail.png?raw=true))
+
 A minimal Chromium extension that gives you two history controls: disable history tracking entirely, or auto-clear it when you close the browser. No bloat, no network access, no analytics.
 
 ## How it works
