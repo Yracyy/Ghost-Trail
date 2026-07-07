@@ -61,7 +61,7 @@ This shouldn't happen — settings are stored in `chrome.storage.local` which pe
 
 ## Why not publish in Chrome Web Store?
 
-To publish an extension you need to pay 5$ USD to register CWS Dev and i dont to do that (im broke :P)
+To publish an extension you need to pay 5$ USD to register CWS Dev and i dont want to do that (im broke :P)
 
 ## License
 
